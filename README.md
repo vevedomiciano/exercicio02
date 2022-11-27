@@ -8,15 +8,15 @@
 2. Se desejar selecione a opção Add a README file para criar um arquivo de apresentação
 3. Na página do seu repositório copie o link HTTPS ou SSH (se já houver configurado) utilizando o botão code
 4. Abra o seu terminal na pasta em que deseja clonar o repositório ou utilize o comando cd no terminal pra chegar até lá
-5. Utilize o comando git clone link-HTTPS/SSH
+5. Utilize o comando `git clone link-HTTPS/SSH`
 
 ## **2. Criando sua nova branch & commit de mudanças**
 
-1. No terminal escreva o comando git checkout -b nome-da-sua-branch para criar a branch e mudar para ela diretamente
+1. No terminal escreva o comando `git checkout -b nome-da-sua-branch` para criar a branch e mudar para ela diretamente
 2. Abra o seu editor favorito e faça suas modificações, não se esqueça de salvar!
 3. Voltando para o terminal e dentro da pasta do projeto, use o comando git add . para preparar todos os arquivos modificados para o commit
-4. Agora use o comando git commit -m "aqui sua mensagem de commit" para fazer o commit das suas mudanças na branch
-5. Para enviar seu commit para seu repositório remoto utilize o comando git push origin nome-da-sua-branch
+4. Agora use o comando `git commit -m "aqui sua mensagem de commit"` para fazer o commit das suas mudanças na branch
+5. Para enviar seu commit para seu repositório remoto utilize o comando `git push origin nome-da-sua-branch`
 
 ## **3. Fazendo Pull Request (PR) & dando merge**
 
